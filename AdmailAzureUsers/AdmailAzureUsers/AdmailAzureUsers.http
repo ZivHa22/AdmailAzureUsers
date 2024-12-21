@@ -1,0 +1,6 @@
+@AdmailAzureUsers_HostAddress = http://localhost:5225
+
+GET {{AdmailAzureUsers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
