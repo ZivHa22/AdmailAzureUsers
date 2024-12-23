@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "F8ibEWXmTbbFS555tYenVI6sguY8msyC7tDr+b6OCy4=",
+  "Source": "AdmailAzureUsers",
+  "BasePath": "_content/AdmailAzureUsers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

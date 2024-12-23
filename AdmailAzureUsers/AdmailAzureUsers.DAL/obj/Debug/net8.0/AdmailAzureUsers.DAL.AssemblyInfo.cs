@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdmailAzureUsers.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+756155116f7075003e34de17d8738d599ce357bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdmailAzureUsers.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdmailAzureUsers.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

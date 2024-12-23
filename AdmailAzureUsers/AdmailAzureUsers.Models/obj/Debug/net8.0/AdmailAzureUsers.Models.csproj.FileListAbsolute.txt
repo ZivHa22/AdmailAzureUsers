@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\bin\Debug\net8.0\AdmailAzureUsers.Models.deps.json
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\bin\Debug\net8.0\AdmailAzureUsers.Models.dll
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\bin\Debug\net8.0\AdmailAzureUsers.Models.pdb
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.AssemblyInfo.cs
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.sourcelink.json
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.dll
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\refint\AdmailAzureUsers.Models.dll
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.pdb
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\ref\AdmailAzureUsers.Models.dll
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\bin\Debug\net8.0\AdmailAzureUsers.Models.runtimeconfig.json
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.genruntimeconfig.cache
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers.Models\obj\Debug\net8.0\AdmailAzureUsers.Models.csproj.AssemblyReference.cache
