@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "AdmailAzureUsers.Controllers.AdmailAzureUsersApiController",
-    "Method": "GetAzureusers",
+    "Method": "GetAzureusersAsync",
     "RelativePath": "AdmailAzureUsersApi/GetUsers/{id}",
     "HttpMethod": "GET",
     "IsController": true,

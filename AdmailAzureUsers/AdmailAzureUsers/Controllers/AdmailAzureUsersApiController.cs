@@ -19,12 +19,12 @@ namespace AdmailAzureUsers.Controllers
         [HttpGet]
         [Route("GetUsers/{id}")]
         [Produces("application/json")]
-        public ActionResult GetAzureusers(int id)
+        public async Task<ActionResult> GetAzureusersAsync(int id)
         {
             ResponseDTO<object> res = new ResponseDTO<object>();
             try
             {
-                res.data = azureUsersService.GetAzureUsers(id);
+                res.data = await azureUsersService.GetAzureUsers(id);
                 res.success = true;
                 return Ok(res);
             }

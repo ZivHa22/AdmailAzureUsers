@@ -17,10 +17,10 @@ namespace AdmailAzureUsers.BL.Services
             azureUsersRepository = _azureUsersRepository;
         }
 
-        public object GetAzureUsers(int id)
+        public async Task<object> GetAzureUsers(int id)
         {
             AzureUser azureUser = azureUsersRepository.GetAzureUserById(id);
-            var users = azureUsersRepository.GetGraphAzureUsers(azureUser);
+            var users = await azureUsersRepository.GetGraphAzureUsers(azureUser);
             return users;
         }
 
