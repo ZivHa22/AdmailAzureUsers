@@ -7,6 +7,8 @@ public partial class AzureUser
 {
     public int Id { get; set; }
 
+    public string Domain { get; set; }
+
     public string TenantId { get; set; } = null!;
 
     public string ClientId { get; set; } = null!;

@@ -17,14 +17,35 @@ namespace AdmailAzureUsers.Controllers
 
 
         [HttpGet]
-        [Route("GetUsers/{id}")]
+        [Route("GetUsers/{domain}")]
         [Produces("application/json")]
-        public async Task<ActionResult> GetAzureusersAsync(int id)
+        public async Task<ActionResult> GetAzureUsers(string domain)
         {
             ResponseDTO<object> res = new ResponseDTO<object>();
             try
             {
-                res.data = await azureUsersService.GetAzureUsers(id);
+                res.data = await azureUsersService.GetAzureUsers(domain);
+                res.success = true;
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                res.success = false;
+                res.errorMessage = ex.Message;
+                res.data = null;
+                return BadRequest(res);
+            }
+
+        }
+        [HttpGet]
+        [Route("GetGroups/{domain}")]
+        [Produces("application/json")]
+        public async Task<ActionResult> GetAzureGroups(string domain)
+        {
+            ResponseDTO<object> res = new ResponseDTO<object>();
+            try
+            {
+                res.data = await azureUsersService.GetAzureGroups(domain);
                 res.success = true;
                 return Ok(res);
             }

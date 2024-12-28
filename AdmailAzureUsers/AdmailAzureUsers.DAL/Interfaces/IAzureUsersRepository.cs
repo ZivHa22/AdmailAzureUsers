@@ -9,8 +9,10 @@ namespace AdmailAzureUsers.DAL.Interfaces
 {
     public interface IAzureUsersRepository
     {
-        public AzureUser GetAzureUserById(int id);
+        public AzureUser GetAzureUserByDomain(string domain);
 
-        public Task<object> GetGraphAzureUsers(AzureUser azureUser);
+        public Task<object> GetGraphAzureUsers();
+        public Task<object> GetGraphAzureGroups();
+        public void SetAzureUser(AzureUser azureUser);
     }
 }

@@ -5,19 +5,40 @@
     "version": "1.0"
   },
   "paths": {
-    "/AdmailAzureUsersApi/GetUsers/{id}": {
+    "/AdmailAzureUsersApi/GetUsers/{domain}": {
       "get": {
         "tags": [
           "AdmailAzureUsersApi"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "domain",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/AdmailAzureUsersApi/GetGroups/{domain}": {
+      "get": {
+        "tags": [
+          "AdmailAzureUsersApi"
+        ],
+        "parameters": [
+          {
+            "name": "domain",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
