@@ -29,7 +29,6 @@ C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdmailAzureUsers.props
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdmailAzureUsers.props
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\AdmailAz.9A4BA4E1.Up2Date
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\AdmailAzureUsers.dll
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\refint\AdmailAzureUsers.dll
@@ -192,3 +191,4 @@ C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Multipart.dll
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Text.dll
 C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\bin\Debug\net8.0\Std.UriTemplate.dll
+C:\Users\USER\Desktop\Admail\AdmailAzureUsers\AdmailAzureUsers\AdmailAzureUsers\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

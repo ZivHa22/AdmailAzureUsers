@@ -30,7 +30,7 @@ namespace AdmailAzureUsers.BL.Services
             var users = await azureUsersRepository.GetGraphAzureUsers();
             return users;
         }
-        public async Task<object> GetAzureGroups(string domain)
+        public async Task<List<Models.DTO.Group>> GetAzureGroups(string domain)
         {
             AzureUser azureUser = azureUsersRepository.GetAzureUserByDomain(domain);
             if (azureUser == null)

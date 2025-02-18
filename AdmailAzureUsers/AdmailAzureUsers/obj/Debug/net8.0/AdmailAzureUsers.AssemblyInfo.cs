@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdmailAzureUsers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab050b4163ef6a7b71610253907f05026b35c7e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2aa50af24d41a7e1e0b6d15630810436ae629a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdmailAzureUsers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdmailAzureUsers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

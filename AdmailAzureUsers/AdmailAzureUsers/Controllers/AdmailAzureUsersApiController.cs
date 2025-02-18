@@ -42,7 +42,7 @@ namespace AdmailAzureUsers.Controllers
         [Produces("application/json")]
         public async Task<ActionResult> GetAzureGroups(string domain)
         {
-            ResponseDTO<object> res = new ResponseDTO<object>();
+            ResponseDTO<List<Models.DTO.Group>> res = new ResponseDTO<List<Models.DTO.Group>>();
             try
             {
                 res.data = await azureUsersService.GetAzureGroups(domain);

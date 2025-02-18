@@ -12,7 +12,7 @@ namespace AdmailAzureUsers.DAL.Interfaces
         public AzureUser GetAzureUserByDomain(string domain);
 
         public Task<object> GetGraphAzureUsers();
-        public Task<object> GetGraphAzureGroups();
+        public Task<List<Models.DTO.Group>> GetGraphAzureGroups();
         public void SetAzureUser(AzureUser azureUser);
     }
 }

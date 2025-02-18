@@ -12,6 +12,7 @@ using Azure.Identity;
 using Microsoft.Graph;
 using Microsoft.Graph.Models;
 using Microsoft.Identity.Client;
+using Microsoft.Kiota.Abstractions;
 
 namespace AdmailAzureUsers.DAL.Respositories
 {
@@ -45,22 +46,32 @@ namespace AdmailAzureUsers.DAL.Respositories
             try
             {
 
-                var users = await graphClient.Users.GetAsync();
-                return users;
+                var users = await graphClient.Users.GetAsync(requestConfiguration =>
+                {
+                    requestConfiguration.QueryParameters.Top = 999;
+                    requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
+                    requestConfiguration.QueryParameters.Count = true;
+                });
+                return users.Value;
             }
             catch (Exception ex)
-            {
+                {
                 throw new Exception(ex.Message);
             }
         }
-        public async Task<object> GetGraphAzureGroups()
+        public async Task<List<Models.DTO.Group>> GetGraphAzureGroups()
         {
             List<Models.DTO.Group> groups = new List<Models.DTO.Group>();
             Models.DTO.Group group;
 
             try
             {
-                var groupsAzure = await graphClient.Groups.GetAsync();
+                var groupsAzure = await graphClient.Groups.GetAsync(requestConfiguration =>
+                {
+                    requestConfiguration.QueryParameters.Top = 999;
+                    requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
+                    requestConfiguration.QueryParameters.Count = true;
+                }); ;
 
                 foreach (var groupAzr in groupsAzure.Value)
                 {
